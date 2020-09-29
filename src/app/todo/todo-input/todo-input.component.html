@@ -1,0 +1,4 @@
+<div class="inputs">
+    <input class="inputer" type="text" name="name" id="name" #name (keyup.enter) = "addTask(name)" style="width: 50%">
+    <input class="adder" type="button" value="Add" #submit (click) = "addTask(name)">
+</div>
