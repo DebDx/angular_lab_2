@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./todo-list.component.css']
 })
 export class TodoListComponent implements OnInit {
-  task=['a','b','c','d']
+  task=[{title:'a',dates:'2019/10/02'},{title:'b',dates:'2019/10/03'},{title:'c',dates:'2019/10/04'},{title:'d',dates:'2019/10/05'}];
   constructor() { }
 
   ngOnInit(): void {

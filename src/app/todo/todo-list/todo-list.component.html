@@ -1,1 +1,15 @@
-<li *ngFor="let c of task">{{c}}</li>
+<mat-card *ngFor="let c of task">
+    <section>
+    <mat-card-title>{{c.title}}</mat-card-title>
+   
+    <mat-card-content>{{c.dates}}</mat-card-content>
+    <mat-card-actions align='right'>
+        <button mat-icon-button color="warn" aria-label="Example icon button with a heart icon">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </mat-card-actions>
+    <mat-card-actions>{{c.dates}}</mat-card-actions>
+    
+    </section>
+</mat-card>
+
